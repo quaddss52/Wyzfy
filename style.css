@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 60%;
 }
 
 .content-img {
@@ -30,7 +31,7 @@ body {
 
 .content-img img {
   width: 100%;
-  height: 800px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -77,6 +78,7 @@ body {
 
 .password-visible input {
   flex: 1;
+  background: transparent;
 }
 
 .privacy {
@@ -84,6 +86,7 @@ body {
   text-align: center;
   color: #5d5d5d;
   padding: 1rem;
+  line-height: 1.7;
 }
 
 .privacy span {
