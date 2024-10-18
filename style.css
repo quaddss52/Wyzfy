@@ -11,7 +11,7 @@ body {
 }
 
 .content {
-  max-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
 }
@@ -167,16 +167,20 @@ button:hover {
 
 @media screen and (max-width: 650px) {
   .content {
+    height: fit-content;
     flex-direction: column;
+    align-items: center;
   }
 
   .signForm {
-    padding: 0;
+    padding: 4rem 3rem;
+
+    width: 100%;
   }
 
   .signup-form {
-    width: 350px;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
   }
 
   .logo {
@@ -191,7 +195,8 @@ button:hover {
   }
 
   .social {
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 4rem;
   }
 
