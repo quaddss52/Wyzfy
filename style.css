@@ -97,7 +97,7 @@ button {
   text-align: center;
   border: 1px solid transparent;
   border-radius: 10rem;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   margin: 2rem 0 !important;
   color: #fff;
   font-size: 1.7rem !important;
@@ -121,8 +121,28 @@ button:hover {
   color: #5d5d5d;
 }
 
+.fp-intro {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #5d5d5d;
+  margin-bottom: 3rem;
+}
+
+.redirect-fp {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
 .redirect a {
   color: #3ac1ba;
+}
+
+.redirect-fp a {
+  text-decoration: none;
+  font-weight: 700;
 }
 
 /* social  */
